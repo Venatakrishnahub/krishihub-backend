@@ -1,0 +1,13 @@
+package com.krishihub;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
+public class KrishiHubApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(KrishiHubApplication.class, args);
+    }
+}

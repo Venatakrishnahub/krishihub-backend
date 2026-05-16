@@ -1,0 +1,6 @@
+target/
+.idea/
+*.iml
+
+# Firebase secret
+src/main/resources/firebase-service-account.json
